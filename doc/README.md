@@ -10,7 +10,7 @@ Conteúdo previsto:
 - Breve texto sobre a procura de estágio curricular.
 - Botão para descarregar o CV em PDF.
 - Acessos ao LinkedIn e GitHub.
-- Rodapé com convite ao contacto pelo LinkedIn.
+- Logótipos junto dos nomes LinkedIn e GitHub, sem repetir o convite ao contacto num rodapé.
 
 Por agora, não incluir a secção de projetos, a marca “tiago.” no canto superior esquerdo nem a etiqueta “ESTÁGIO CURRICULAR”. A referência ao estágio mantém-se no texto de apresentação.
 
@@ -38,3 +38,12 @@ Na implementação, manter o PDF num caminho estável, para o substituir sem mud
 Antes de publicar, confirmar os textos e os links com o CV e os perfis atualizados. Publicar apenas os dados pessoais destinados a consulta pública.
 
 Verificar num PC e num telemóvel: disposição, leitura, deslocação, acesso aos perfis e abertura ou download do PDF. Testar também o QR code com dados móveis e sem sessão iniciada.
+
+## Implementação
+
+Página implementada em HTML e CSS, sem dependências ou JavaScript. Consultar o README principal para abrir localmente e atualizar o CV. O PDF foi copiado da versão existente no projeto local de CV; deve ser revisto antes da publicação.
+
+## Ícones
+
+Logótipos em SVG da biblioteca Bootstrap Icons, guardados localmente em assets/icons. A licença MIT está incluída nessa pasta. Os ícones são decorativos; os nomes dos perfis permanecem em texto.
+
